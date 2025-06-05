@@ -15,7 +15,8 @@ public class LibraryServiceApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(LibraryServiceApplication.class, args);
 	}
-
+/*
+    //Feign Client Error Handling
 	@Bean
 	public ErrorDecoder errorDecoder() {
 		return new RetrieveMessageErrorDecoder();
@@ -25,4 +26,6 @@ public class LibraryServiceApplication {
 	Logger.Level feignLoggerLevel() {
 		return Logger.Level.FULL;
 	}
+
+ */
 }

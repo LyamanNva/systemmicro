@@ -16,4 +16,7 @@ public class BookDto {
     private Integer year;
     private String author;
     private String pressName;
+    public BookDto(BookIdDto bookId) {
+        this.id = bookId;
+    }
 }
